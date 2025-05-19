@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Wardrobe - Future Materials Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Smart Wardrobe - Future Materials Lab</h1>
+            <p>Smart wardrobe designed for urban professionals, fashion enthusiasts, and quality families</p>
+            <div class="hero-slogan">Make every day's dressing and storage more efficient, smarter, and warmer</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Who We Serve Section -->
+        <section id="who-we-serve" class="section">
+            <h2>Who We Serve</h2>
+            <div class="who-we-serve-cards">
+                <div class="serve-card">
+                    <div class="serve-icon">💼</div>
+                    <div class="serve-title">Urban Professionals</div>
+                    <div class="serve-desc">Efficient outfit planning, save time, boost your career every step</div>
+                    <div style="display:flex;justify-content:center;margin:10px 0;">
+                        <img src="back-work-concept-illustration_114360-4759.avif" alt="Urban Professionals" style="width:600px;height:600px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                    </div>
+                </div>
+                <div class="serve-card">
+                    <div class="serve-icon">👗</div>
+                    <div class="serve-title">Fashion Enthusiasts</div>
+                    <div class="serve-desc">Smart matching, versatile styles, show your unique taste</div>
+                    <div style="display:flex;gap:24px;justify-content:center;margin:10px 0;">
+                        <img src="download·.jpg" alt="Fashion Enthusiasts 1" style="width:300px;height:300px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                        <img src="download234.jpg" alt="Fashion Enthusiasts 2" style="width:300px;height:300px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                    </div>
+                </div>
+                <div class="serve-card">
+                    <div class="serve-icon">🏠</div>
+                    <div class="serve-title">Quality Families</div>
+                    <div class="serve-desc">Space optimization, healthy care, protect your family every day</div>
+                    <div style="display:flex;gap:24px;justify-content:center;margin:10px 0;">
+                        <img src="download1.jpg" alt="Quality Families 1" style="width:300px;height:300px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                        <img src="Quality-Time-with-your-child.jpg" alt="Quality Families 2" style="width:300px;height:300px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- AR Virtual Fitting Section -->
+        <section id="ar-fitting" class="section" style="padding:0;margin:0;">
+            <h2 style="font-size:2.2em;font-weight:700;text-align:center;margin-bottom:18px;letter-spacing:1px;">AR Smart Fitting Technology</h2>
+            <div class="ar-fitting-container" style="display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;justify-content:center;padding:0;margin:0;">
+                <div class="ar-image-container" style="display:flex;flex-direction:column;align-items:center;gap:0;width:100%;max-width:420px;">
+                    <img src="new123-ar-image.jpg.webp" alt="AR Smart Wardrobe Virtual Fitting Mirror" class="ar-image" style="width:100%;max-width:420px;height:auto;margin-bottom:0;">
+                    <img src="3333.jpg" alt="AR Smart Fitting Example" class="ar-image" style="width:100%;max-width:420px;height:auto;margin-top:0;margin-bottom:0;">
+                    <img src="modelos-virtuales-probadores-inteligentes-pic03-20250320-caad-retail-design-1024x574.webp" alt="AR Smart Fitting Example 3" class="ar-image" style="width:100%;max-width:420px;height:auto;margin-top:0;">
+                </div>
+                <div class="ar-description" style="flex:1;min-width:320px;max-width:600px;padding:0 16px;">
+                    <h3 style="font-size:1.4em;font-weight:600;margin-bottom:12px;">Cutting-Edge Technology & Expert Team</h3>
+                    <div class="resources-columns" style="font-size:1.08em;line-height:1.7;">
+                        <div class="resource-column">
+                            <h4>Technology Resources</h4>
+                            <ul class="resource-list">
+                                <li><strong>AI Smart Matching System:</strong> Save precious time for busy people, easily handle various occasions</li>
+                                <li><strong>Image Recognition:</strong> Upload clothes to automatically identify style, color, and fabric, perfect for fashion lovers and collectors</li>
+                                <li><strong>AR/Virtual Fitting:</strong> Preview outfit effects in advance, boost confidence and experience</li>
+                                <li><strong>Space Optimization Algorithms:</strong> Maximize storage even in small apartments, ideal for families</li>
+                                <li><strong>Cloud Management:</strong> Manage your wardrobe anytime, anywhere, suitable for frequent travelers and multi-location living</li>
+                            </ul>
+                        </div>
+                        <div class="resource-column">
+                            <h4>Human Resources</h4>
+                            <ul class="resource-list">
+                                <li><strong>AI & Algorithm Engineers:</strong> Develop matching logic and user behavior learning systems</li>
+                                <li><strong>Full-Stack Developers:</strong> Create applications, backend systems and databases</li>
+                                <li><strong>Fashion Consultants:</strong> Optimize matching rules and recommendation logic</li>
+                                <li><strong>Product Managers & Designers:</strong> Plan product structure and user experience</li>
+                                <li><strong>Marketing & Content Team:</strong> Promote the system and guide users</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Materials & Craftsmanship Section -->
+        <section id="materials" class="section">
+            <h2>Core Product - Materials & Craftsmanship</h2>
+            
+            <div class="feature-cards">
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h3>Quantum Self-Healing Nano-Coating</h3>
+                    <ul>
+                        <li>Based on biomimetic principles, simulating salamander skin regeneration</li>
+                        <li>Microscopic structures automatically reorganize to repair minor scratches</li>
+                        <li>Lifespan increased by 300% compared to traditional coatings</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Smart Temperature-Responsive Materials</h3>
+                    <ul>
+                        <li>Derived from spacecraft insulation technology</li>
+                        <li>Molecular structure adjusts automatically with ambient temperature</li>
+                        <li>Maintains consistent interior temperature year-round, extending garment life</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🏎️</div>
+                    <h3>Aerospace-Grade Carbon Fiber Frame</h3>
+                    <ul>
+                        <li>Featuring the same carbon fiber weaving technology as F1 racing cars</li>
+                        <li>Only 1/4 the weight of traditional steel frames, with 50% greater strength</li>
+                        <li>Shock-resistant and deformation-proof, with a 30-year warranty</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="dialogue-section">
+                <h3>Plant-Based Eco-Panel Dialogue</h3>
+                <div class="dialogue">
+                    <div class="ai-message">
+                        <div class="avatar">🤖</div>
+                        <div class="message">
+                            Let me tell you why our plant-based panels last 5x longer than traditional wood. Conventional wooden panels are susceptible to moisture and warping, while our plant-based polymer molecular chains have adaptive properties. Like bamboo, they're both flexible and strong. Our panels utilize patented cross-linking technology that perfectly combines plant fibers with nano-materials, creating a new material that's both eco-friendly and extraordinarily durable.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="protection-section">
+                <h3>Military-Grade 8-Layer Protective Structure</h3>
+                <div class="protection-layers">
+                    <div class="layer">
+                        <span class="layer-number">1</span>
+                        <span class="layer-name">Ballistic-Grade Nano-Coating Outer Layer</span>
+                        <span class="layer-desc">Similar to tank armor surface</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">2</span>
+                        <span class="layer-name">Electromagnetic Interference Shield</span>
+                        <span class="layer-desc">Like military electronic device shielding</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">3</span>
+                        <span class="layer-name">Fire-Retardant Layer</span>
+                        <span class="layer-desc">Aviation-grade flame-resistant material</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">4</span>
+                        <span class="layer-name">Shock-Absorption Buffer</span>
+                        <span class="layer-desc">Similar to military transport container systems</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">5</span>
+                        <span class="layer-name">Moisture-Proof Sealing Layer</span>
+                        <span class="layer-desc">Submarine-grade sealing technology</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">6</span>
+                        <span class="layer-name">Anti-Bacterial & Anti-Mold Layer</span>
+                        <span class="layer-desc">Medical-grade sterilization coating</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">7</span>
+                        <span class="layer-name">Sound Insulation Layer</span>
+                        <span class="layer-desc">Acoustic stealth technology</span>
+                    </div>
+                    <div class="layer">
+                        <span class="layer-number">8</span>
+                        <span class="layer-name">Structural Reinforcement Layer</span>
+                        <span class="layer-desc">Armored vehicle chassis protection</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- AI System Section -->
+        <section id="ai-system" class="section">
+            <h2>Technical Edge - AI System</h2>
+            
+            <div class="ai-consultant">
+                <h3>🤖 StyleMaster 3000</h3>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-text">Real-time Outfit Scoring (0-100)</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🎯</div>
+                        <div class="feature-text">Occasion-based Smart Recommendation Engine</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🌦️</div>
+                        <div class="feature-text">Weather Adaptability Analysis</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📈</div>
+                        <div class="feature-text">Personal Style Evolution Tracking</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">👥</div>
+                        <div class="feature-text">Social Occasion Outfit Prediction</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🏷️</div>
+                        <div class="feature-text">Brand Pairing Optimization</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🗓️</div>
+                        <div class="feature-text">Seasonal Wardrobe Planning</div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-mockup">
+                    <h4>AI Fashion Consultant Dashboard</h4>
+                    <div class="dashboard-image">
+                        <div class="mock-dashboard">
+                            <div class="dashboard-header">
+                                <div class="dashboard-title">StyleMaster 3000 Control Center</div>
+                                <div class="dashboard-date">June 15, 2023</div>
+                            </div>
+                            <div class="dashboard-content">
+                                <div class="dashboard-panel">
+                                    <div class="panel-title">Today's Outfit Analysis</div>
+                                    <div class="score-display">92</div>
+                                    <div class="score-label">Style Score</div>
+                                </div>
+                                <div class="dashboard-panel">
+                                    <div class="panel-title">Weather Adaptability</div>
+                                    <div class="weather-icon">☀️</div>
+                                    <div class="temp-display">79°F</div>
+                                </div>
+                                <div class="dashboard-panel">
+                                    <div class="panel-title">Today's Recommendation</div>
+                                    <div class="outfit-preview">
+                                        👔 + 👖 + 👞
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="comparison-section">
+                <h3>Wardrobe Generation Comparison</h3>
+                <div class="chart-container">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="algorithms-section">
+                <h3>7 Space Optimization Algorithms</h3>
+                <div class="stat-counters">
+                    <div class="stat">
+                        <div class="stat-value" data-target="100000">0</div>
+                        <div class="stat-label">User Datasets</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" data-target="1000000">0</div>
+                        <div class="stat-label">Algorithm Iterations</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" data-target="47">0</div>
+                        <div class="stat-label">Space Utilization Increase (%)</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" data-target="68">0</div>
+                        <div class="stat-label">Retrieval Time Reduction (%)</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" data-target="89">0</div>
+                        <div class="stat-label">Organization Efficiency Boost (%)</div>
+                    </div>
+                </div>
+                <div class="algorithms-list">
+                    <div class="algorithm">
+                        <div class="algorithm-icon">📏</div>
+                        <div class="algorithm-name">Spatial Geometry Optimization</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">🔄</div>
+                        <div class="algorithm-name">Usage Cycle Prediction</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">📦</div>
+                        <div class="algorithm-name">Multi-Dimensional Folding</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">🌪️</div>
+                        <div class="algorithm-name">Vortex Compression Storage</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">🔍</div>
+                        <div class="algorithm-name">Rapid Retrieval Pathfinding</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">📅</div>
+                        <div class="algorithm-name">Seasonal Rotation</div>
+                    </div>
+                    <div class="algorithm">
+                        <div class="algorithm-icon">🧩</div>
+                        <div class="algorithm-name">Adaptive Combination</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Scenario-Based Experiences Section -->
+        <section id="scenarios" class="section">
+            <h2>Scenario-Based Experiences</h2>
+            
+            <div class="emergency-section">
+                <h3>Emergency Mode</h3>
+                <div class="timeline">
+                    <div class="timeline-event">
+                        <div class="time">Monday 7:00 AM</div>
+                        <div class="event">Calendar shows urgent meeting notification</div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="time">T+0s</div>
+                        <div class="event">AI analyzes meeting context</div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="time">T+30s</div>
+                        <div class="event">Selects most appropriate business suit</div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="time">T+60s</div>
+                        <div class="event">Smart ironing system activates</div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="time">T+120s</div>
+                        <div class="event">Completes accessory matching</div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="time">T+180s</div>
+                        <div class="event">Generates styling QR code, sends to phone</div>
+                    </div>
+                </div>
+                <div class="qr-code">
+                    <div class="qr-placeholder">
+                        <div class="qr-inner"></div>
+                    </div>
+                    <div class="qr-text">Outfit Guide QR Code</div>
+                </div>
+            </div>
+            
+            <div class="sterilization-section">
+                <h3>Smart Sterilization Process</h3>
+                <div class="sterilization-process">
+                    <div class="process-step">
+                        <div class="process-icon">🔆</div>
+                        <div class="process-name">UV-C Light Sterilization</div>
+                        <div class="process-desc">Medical Grade</div>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">🔄</div>
+                        <div class="process-name">Negative Ion Circulation</div>
+                        <div class="process-desc">Air Purification</div>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">💧</div>
+                        <div class="process-name">Smart Humidity Control</div>
+                        <div class="process-desc">Precision Management</div>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">🌡️</div>
+                        <div class="process-name">Temperature Regulation</div>
+                        <div class="process-desc">Constant Maintenance</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="membership-section">
+                <h3>"AI Fashion Prediction" Membership</h3>
+                <div class="membership-features">
+                    <div class="membership-feature">
+                        <div class="feature-icon">🔮</div>
+                        <div class="feature-text">Predicts your next outfit 1 week early</div>
+                    </div>
+                    <div class="membership-feature">
+                        <div class="feature-icon">🛍️</div>
+                        <div class="feature-text">Personalized recommendations based on shopping habits</div>
+                    </div>
+                    <div class="membership-feature">
+                        <div class="feature-icon">💰</div>
+                        <div class="feature-text">Exclusive partner brand discounts</div>
+                    </div>
+                    <div class="membership-feature">
+                        <div class="feature-icon">🔄</div>
+                        <div class="feature-text">Seasonal wardrobe organization service</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Advanced Features Section -->
+        <section id="advanced" class="section">
+            <h2>Advanced Features</h2>
+            
+            <div class="memory-section">
+                <h3>AI-Curated Memory Lane</h3>
+                <div class="memory-features">
+                    <div class="memory-feature">
+                        <div class="memory-icon">📝</div>
+                        <div class="memory-text">Automatically archives stories behind clothing items</div>
+                    </div>
+                    <div class="memory-feature">
+                        <div class="memory-icon">🖼️</div>
+                        <div class="memory-text">Generates digital memory albums</div>
+                    </div>
+                    <div class="memory-feature">
+                        <div class="memory-icon">🏷️</div>
+                        <div class="memory-text">Emotional tagging and smart categorization</div>
+                    </div>
+                </div>
+                <div class="memory-example">
+                    <div class="memory-card">
+                        <div class="memory-date">May 15, 2022</div>
+                        <div class="memory-title">Graduation Ceremony Blue Suit</div>
+                        <div class="memory-content">
+                            "This is the suit you wore at your university graduation ceremony. It has been worn 12 times, primarily for important occasions. Based on your feedback and emotional analysis, this garment is associated with 'achievement' and 'milestone' emotions."
+                        </div>
+                        <div class="memory-tags">
+                            <span class="tag">Important Occasion</span>
+                            <span class="tag">Achievement</span>
+                            <span class="tag">Milestone</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contrast-section">
+                <h3>Perfect Fusion of Traditional & Modern</h3>
+                <div class="contrast-quote">
+                    "Grandma's traditional storage wisdom meets quantum-computing algorithms"
+                </div>
+                <div class="contrast-visual">
+                    <div class="traditional">
+                        <div class="icon">👵</div>
+                        <div class="label">Traditional Wisdom</div>
+                        <ul>
+                            <li>Seasonal organization</li>
+                            <li>Heavy items at bottom principle</li>
+                            <li>Frequency-based access</li>
+                        </ul>
+                    </div>
+                    <div class="connector">+</div>
+                    <div class="modern">
+                        <div class="icon">💻</div>
+                        <div class="label">Modern Technology</div>
+                        <ul>
+                            <li>Quantum optimization algorithms</li>
+                            <li>Machine learning predictions</li>
+                            <li>Adaptive space configuration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sustainability-section">
+                <h3>Sustainability Commitment</h3>
+                <div class="sustainability-visual">
+                    <div class="recycle-art">
+                        <div class="icon">🎨</div>
+                        <div class="label">Recycle old wardrobes into art installations</div>
+                    </div>
+                    <div class="plus">+</div>
+                    <div class="plant-trees">
+                        <div class="icon">🌳</div>
+                        <div class="label">Plant 2 trees per purchase</div>
+                    </div>
+                    <div class="plus">+</div>
+                    <div class="zero-carbon">
+                        <div class="icon">♻️</div>
+                        <div class="label">Zero carbon footprint operation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- User Testimonials Section -->
+        <section id="testimonials" class="section">
+            <h2>Customer Experience</h2>
+            
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <div class="user-image user-image-1"></div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-text">
+                            "The Smart Wardrobe has completely transformed my morning routine. I save at least 20 minutes every day, and the outfit recommendations are spot on! The space optimization is incredible - I can store 40% more clothes in the same space as my old wardrobe."
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Sarah Johnson</strong> - Fashion Designer, New York
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <div class="user-image user-image-2"></div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-text">
+                            "As a business executive with a packed schedule, the Emergency Mode feature has saved me countless times. Last month, I had a surprise meeting with investors, and the wardrobe had my perfect outfit ready in 3 minutes flat. The sterilization system also keeps my suits in impeccable condition."
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Michael Chen</strong> - CEO, London
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <div class="user-image user-image-3"></div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-text">
+                            "The Memory Lane feature is something I never knew I needed. It recognized that my vintage dress had sentimental value and created a beautiful digital album with photos from events where I've worn it. Also, the sustainability commitment really resonates with my values - I love that they planted trees when I purchased!"
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Emma Rodriguez</strong> - Environmental Scientist, Sydney
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Relationships Section -->
+        <section id="customer-relationships" class="section" style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
+            <h2 style="text-align:center;margin-bottom:24px;">Customer Relationships</h2>
+            <div class="customer-relationships-img" style="display:flex;gap:32px;justify-content:center;margin-bottom:32px;">
+                <img src="download12345.png" alt="Customer Relationships" style="width:300px;height:300px;object-fit:contain;background:#fff;border:1px solid #eee;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                <img src="depositphotos_59931055-Business-People-Meeting.webp" alt="Customer Relationships 2" style="width:300px;height:300px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+            </div>
+            <div class="customer-relationships-content" style="max-width:700px;width:100%;background:#fff;border-radius:18px;box-shadow:0 2px 16px rgba(0,0,0,0.07);padding:32px 24px;">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">🤖</span>
+                        <div><strong>Smart Self-Service</strong><br>Manage your wardrobe, get outfit suggestions, and optimize space anytime with our AI assistant and intuitive interface.</div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">✨</span>
+                        <div><strong>Personalized Interaction</strong><br>Receive tailored outfit recommendations and care reminders based on your habits, occasions, and seasons.</div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">💌</span>
+                        <div><strong>Emotional Connection</strong><br>The "AI-Curated Memory Lane" helps you archive the stories behind your clothes, making your wardrobe more meaningful.</div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">🛎️</span>
+                        <div><strong>Support & Help</strong><br>Access FAQs and guides for self-help, and reach out to our online support for technical or after-sales issues. Premium users enjoy dedicated consultant services.</div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">👥</span>
+                        <div><strong>Community & Sharing</strong><br>Share your outfit inspirations and wardrobe tips, and get inspired by real user stories featured on our platform.</div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:12px;">
+                        <span style="font-size:1.6em;">📢</span>
+                        <div><strong>Thoughtful Communication</strong><br>AI pushes valuable information at key moments (new arrivals, season change, holidays), while after-sales and tech support are always responsive.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Channels Section -->
+        <section id="channels" class="section" style="display:flex;flex-direction:column;align-items:center;">
+            <h2 style="text-align:center;margin-bottom:24px;">Channels</h2>
+            <div class="channels-img" style="display:flex;gap:32px;justify-content:center;margin-bottom:32px;">
+                <img src="download1.png" alt="Channels" style="width:320px;height:320px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+                <img src="isometric-flat-vector-concept-cross-260nw-1408780964.webp" alt="Channels 2" style="width:320px;height:320px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.10);">
+            </div>
+            <div class="channels-content" style="max-width:700px;width:100%;background:#fff;border-radius:18px;box-shadow:0 2px 16px rgba(0,0,0,0.07);padding:32px 24px;">
+                <ul class="channels-list" style="list-style:none;padding:0;margin:0;">
+                    <li style="display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;"><span style="font-size:1.6em;">🌐</span><div><strong>Online Platforms:</strong> Official website, app, and mini-program for direct product experience, purchase, and wardrobe management.</div></li>
+                    <li style="display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;"><span style="font-size:1.6em;">📱</span><div><strong>Social Media & E-commerce:</strong> Reach customers via WeChat, Weibo, Xiaohongshu, Instagram, Tmall, JD.com, Amazon, and influencer collaborations.</div></li>
+                    <li style="display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;"><span style="font-size:1.6em;">🏬</span><div><strong>Offline Experience:</strong> High-end home stores, smart home exhibitions, partner brand stores, and custom home channels for hands-on experience.</div></li>
+                    <li style="display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;"><span style="font-size:1.6em;">🛎️</span><div><strong>After-sales & Support:</strong> Online customer service, phone, email, and in-app ticketing system for efficient support.</div></li>
+                    <li style="display:flex;align-items:flex-start;gap:12px;margin-bottom:18px;"><span style="font-size:1.6em;">🔗</span><div><strong>Integrated & Cost-effective:</strong> Digital-first approach integrates all channels, reduces costs, and improves service efficiency.</div></li>
+                    <li style="display:flex;align-items:flex-start;gap:12px;"><span style="font-size:1.6em;">📊</span><div><strong>Data-driven Optimization:</strong> Regularly analyze channel performance and optimize resource allocation for best results.</div></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 Future Materials Lab - Smart Wardrobe</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
